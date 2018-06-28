@@ -1,1 +1,0 @@
-{"status":"error","types":{},"errors":[[{"line":3,"column":1},{"line":3,"column":2},"/Users/niki/liquidtypes/currentLH/liquidhaskell/.stack-work/install/x86_64-osx/nightly-2017-10-06/8.2.1/share/x86_64-osx-ghc-8.2.1/liquidhaskell-0.8.2.0/include/GHC/List.spec:3:1: Error: GHC Error\n    Not in scope: variable or data constructor ` GHC.List.head '"]]}

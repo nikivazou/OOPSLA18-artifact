@@ -1,1 +1,0 @@
-{"status":"error","types":{},"errors":[[{"line":23,"column":8},{"line":23,"column":16},"GHCListRound1.hs:23:8-15: Error: GHC Error\n    File name does not match module name:\nSaw: ‘GHC.List’\nExpected: ‘GHCListRound1’"]]}
