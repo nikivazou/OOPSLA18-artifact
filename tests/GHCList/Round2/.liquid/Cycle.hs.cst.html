@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<title>Round2/Cycle.hs</title>
+</head>
+<head>
+<link type='text/css' rel='stylesheet' href='liquid.css' />
+</head>
+
+<body>
+<hr>
+Put mouse over identifiers to see inferred types
+<pre><span class=hs-linenum> 1: </span><span class='hs-keyword'>{-@</span> <span class='hs-conid'>LIQUID</span> <span class='hs-str'>"--no-termination"</span> <span class='hs-keyword'>@-}</span>
+<span class=hs-linenum> 2: </span>
+<span class=hs-linenum> 3: </span><span class='hs-keyword'>module</span> <span class='hs-conid'>Round2</span><span class='hs-varop'>.</span><span class='hs-conid'>Cycle</span> <span class='hs-keyword'>where</span>
+<span class=hs-linenum> 4: </span>
+<span class=hs-linenum> 5: </span><span class='hs-keyword'>import</span> <span class='hs-conid'>Prelude</span>       <span class='hs-varid'>hiding</span> <span class='hs-layout'>(</span><span class='hs-varid'>cycle</span><span class='hs-layout'>)</span>
+<span class=hs-linenum> 6: </span><span class='hs-keyword'>import</span> <span class='hs-conid'>GHCListRound1</span> <span class='hs-varid'>hiding</span> <span class='hs-layout'>(</span><span class='hs-varid'>cycle</span><span class='hs-layout'>)</span>
+<span class=hs-linenum> 7: </span>
+<span class=hs-linenum> 8: </span><span class='hs-keyword'>{-@</span> <span class='hs-varid'>cycle</span>               <span class='hs-keyglyph'>::</span> <span class='hs-varid'>xs</span><span class='hs-conop'>:</span><span class='hs-keyword'>{[a] | ?? }</span> <span class='hs-keyglyph'>-&gt;</span> <span class='hs-keyglyph'>[</span><span class='hs-varid'>a</span><span class='hs-keyglyph'>]</span> <span class='hs-keyword'>@-}</span>
+<span class=hs-linenum> 9: </span><span class='hs-definition'>cycle</span>                   <span class='hs-keyglyph'>::</span> <span class='hs-keyglyph'>[</span><span class='hs-varid'>a</span><span class='hs-keyglyph'>]</span> <span class='hs-keyglyph'>-&gt;</span> <span class='hs-keyglyph'>[</span><span class='hs-varid'>a</span><span class='hs-keyglyph'>]</span>
+<span class=hs-linenum>10: </span><span class='hs-definition'>cycle</span> <span class='hs-conid'>[]</span>                <span class='hs-keyglyph'>=</span> <span class='hs-varid'>errorEmptyList</span> <span class='hs-str'>"cycle"</span>
+<span class=hs-linenum>11: </span><span class='hs-definition'>cycle</span> <span class='hs-varid'>xs</span>                <span class='hs-keyglyph'>=</span> <span class='hs-varid'>xs'</span> <span class='hs-keyword'>where</span> <span class='hs-varid'>xs'</span> <span class='hs-keyglyph'>=</span> <span class='hs-varid'>xs</span> <span class='hs-varop'>++</span> <span class='hs-varid'>xs'</span>
+</pre>
+</body>
+</html>

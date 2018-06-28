@@ -1,0 +1,1 @@
+{"status":"error","types":{},"errors":[[{"line":5,"column":5},{"line":5,"column":6},"Specification.spec:5:5: Error: GHC Error\n    Not in scope: variable or data constructor ` (GHC.Prim.-) '"]]}

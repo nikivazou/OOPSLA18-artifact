@@ -1,0 +1,12 @@
+{-@ LIQUID "--eliminate=none" @-}
+
+module Round2.Tail where
+
+import Prelude hiding (init, last, tail, head, (!!), length, null, filter, concat, foldl, foldl1
+	                  , scanl, foldr1, scanl', scanl1, scanr, scanr1, iterate, take, repeat, drop, cycle)
+import Round1
+
+{-@ tail                :: xs:{[a] | ?? } -> [a] @-}
+tail                    :: [a] -> [a]
+tail (_:xs)             =  xs
+tail []                 =  errorEmptyList "tail"

@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<title>Round2/.liquid/Last.hs.out.html</title>
+</head>
+<style type='text/css'>
+ form {display:inline; margin:0px; padding:0px; }
+</style>
+<script src='http://goto.ucsd.edu/~nvazou/gradual/util.js'></script>
+<script src='http://goto.ucsd.edu/~nvazou/gradual/solve.js'></script>
+<script>dependents.push(['content-1-2']);
+dependents.push(['content-1-1']);
+</script>
+
+<script>values.push([["len xs > 0"],["len xs >= 0"],["len xs == 0"],["true"]]);
+values.push([["len xs > 0"]]);
+</script>
+
+<script>currentstatus.push(0);
+currentstatus.push(0);
+</script>
+
+<script>depzise.push(2);
+</script>
+
+
+<script>sols.push(["len xs > 0","len xs >= 0","len xs == 0","true"]);
+</script>
+
+<script>curSol.push(0);
+</script>
+
+<script>safes.push([['content-1-1','content-1-2'],['content-1-2'],['content-1-2'],['content-1-2']]);
+</script>
+
+<script>unsafes.push([[],['content-1-1'],['content-1-1'],['content-1-1']]);
+</script>
+
+<script>inPartition.push([1,2]);
+</script>
+
+
+<link type='text/css' rel='stylesheet' href='http://goto.ucsd.edu/~nvazou/gradual/liquid.css' />
+<style>
+.classbutton-1{
+background-color: #E59EFF;
+cursor: pointer;
+type: button;}
+
+.src-1{
+background-color: #f0f0f0;}
+</style>
+<style>
+.classbutton-2{
+background-color: #FF9EE9;
+cursor: pointer;
+type: button;}
+
+.src-2{
+background-color: #f0f0f0;}
+</style>
+<style>
+.classbutton-3{
+background-color: #FF9EB8;
+cursor: pointer;
+type: button;}
+
+.src-3{
+background-color: #f0f0f0;}
+</style>
+<style>
+.classbutton-4{
+background-color: #FFB49E;
+cursor: pointer;
+type: button;}
+
+.src-4{
+background-color: #f0f0f0;}
+</style>
+<style>
+.classbutton-5{
+background-color: #FFE59E;
+cursor: pointer;
+type: button;}
+
+.src-5{
+background-color: #f0f0f0;}
+</style>
+<style>
+.classbutton-6{
+background-color: #E9FF9E;
+cursor: pointer;
+type: button;}
+
+.src-6{
+background-color: #f0f0f0;}
+</style>
+
+<body>
+<hr>
+Interactive Solution based on Gradual Typing
+<pre><span class='hs-keyword'>{-@</span> <span class='hs-conid'>LIQUID</span> <span class='hs-str'>"--no-termination"</span> <span class='hs-keyword'>@-}</span>
+<span class='hs-keyword'>module</span> <span class='hs-conid'>Round2</span><span class='hs-varop'>.</span><span class='hs-conid'>Last</span> <span class='hs-keyword'>where</span>
+
+<span class='hs-keyword'>import</span> <span class='hs-conid'>Prelude</span>       <span class='hs-varid'>hiding</span> <span class='hs-layout'>(</span><span class='hs-varid'>last</span><span class='hs-layout'>)</span>
+<span class='hs-keyword'>import</span> <span class='hs-conid'>GHCListRound2</span> <span class='hs-varid'>hiding</span> <span class='hs-layout'>(</span><span class='hs-varid'>last</span><span class='hs-layout'>)</span>
+
+
+<span class='hs-keyword'>{-@</span> <span class='hs-varid'>last</span>                <span class='hs-keyglyph'>::</span> <span class='hs-varid'>xs</span><span class='hs-conop'>:</span><span class='hs-keyword'>{[a] | <button type='button' class='classbutton-1' onclick="solvePrev(1)"><<</button><span type='button' id='button-1' onclick='gradualClick(1)' class='classbutton-1'>??</span><button type='button' class='classbutton-1' onclick="solveNext(1)">>></button> }</span> <span class='hs-keyglyph'>-&gt;</span>  <span class='hs-varid'>a</span> <span class='hs-keyword'>@-}</span>
+<span class='hs-definition'>last</span> <span class='hs-keyglyph'>[</span><span class='hs-varid'>x</span><span class='hs-keyglyph'>]</span>                <span class='hs-keyglyph'>=</span>  <span class='hs-varid'>x</span>
+<span class='hs-definition'>last</span> <span class='hs-layout'>(</span><span class='hs-keyword'>_</span><span class='hs-conop'>:</span><span class='hs-varid'>xs</span><span class='hs-layout'>)</span>             <span class='hs-keyglyph'>=</span>  <span class='hs-varid'>last</span> <span class='hs-varid'>xs</span><div class='dropdown'><span class='dropbtn'><span class='src-1' id ='content-1-2''> 
+</span></span></div><span class='hs-definition'>last</span> <span class='hs-conid'>[]</span>                 <span class='hs-keyglyph'>=</span>  <div class='dropdown'><span class='dropbtn'><span class='src-1' id ='content-1-1''> <span class='hs-varid'>errorEmptyList</span> <span class='hs-str'>"last"</span>
+</span></span></div></pre>
+</body>
+</html>

@@ -1,0 +1,7 @@
+1:1-1:1::Round1.Scanr.$trModule :: "GHC.Types.Module"
+13:1-13:6::Round1.Scanr.scanr :: "(GHC.Types.Int -> GHC.Types.Int -> GHC.Types.Int) -> GHC.Types.Int -> [GHC.Types.Int] -> {o : [GHC.Types.Int] | 0 < len o}"
+13:9-13:11::q0 :: "GHC.Types.Int"
+14:28-14:29::_ :: "GHC.Types.Int -> GHC.Types.Int -> GHC.Types.Int"
+15:34-15:36::qs :: "{VV : [GHC.Types.Int] | len VV > 0\n                        && len VV >= 0\n                        && 0 < len VV}"
+15:38-15:39::q :: "GHC.Types.Int"
+15:45-15:50::Round1.Scanr.scanr :: "(GHC.Types.Int -> GHC.Types.Int -> GHC.Types.Int) -> GHC.Types.Int -> [GHC.Types.Int] -> {o : [GHC.Types.Int] | 0 < len o}"
