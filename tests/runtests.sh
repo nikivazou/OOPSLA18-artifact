@@ -22,7 +22,7 @@ runLib(){
 	done	
 }
 
-
+echo "Depth\t\#?  |  Occs\t Cands\t Sens\t Local\Precise  |  Parts\t #γ\t SCs\t Sols\t Time (s)"
 echo GHC.List 
 cd GHCList
 runLib 2
