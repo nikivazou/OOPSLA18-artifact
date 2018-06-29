@@ -1,4 +1,4 @@
-{-@ LIQUID "--eliminate=none" @-}
+{-@ LIQUID "--no-termination" @-}
 
 module Round1.ErrorEmptyList (errorEmptyList) where
 
