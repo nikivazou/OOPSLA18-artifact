@@ -13,7 +13,7 @@ Below are the direction on how to install and evaluate the implementation.
 
 ## Installation 
 
-- Prerequisites
+### Prerequisites
 
 Installation depends on  
 
@@ -24,7 +24,7 @@ Installation depends on
    - [stack](https://docs.haskellstack.org/en/stable/README/). 
 
 
-- Clone & Install Liquid Haskell on the `gradual` branch
+### Clone & Install Liquid Haskell on the `gradual` branch
 
 ```
 	git clone --recursive https://github.com/ucsd-progsys/liquidhaskell.git
