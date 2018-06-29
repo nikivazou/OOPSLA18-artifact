@@ -34,3 +34,10 @@ cd DataList
 runLib 1
 cd ..
 echo "\n"
+
+
+echo Data.List.NonEmpty 
+cd DataListNonEmpty
+runLib 3
+cd ..
+echo "\n"
